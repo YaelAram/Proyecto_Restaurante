@@ -1,0 +1,90 @@
+:root{
+    --primary-color: #2C702E;
+    --secondary-color: #8BC34A;
+    --accent: #DCE775;
+    --auxiliar: #FFF59D;
+    --letter: #fff;
+    --border-radious: 0.75rem 
+}
+
+body{
+    margin: 0;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+a, p, h1, h2, h3, h4, input{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+/* Grids */
+.grid-container{
+    display: grid;
+}
+
+/* NavBar */
+nav{
+    background-color: var(--primary-color, #2C702E);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0.3rem 0;
+}
+
+.nav-container{
+    grid-template-columns: 3fr 7fr;
+    gap: 0.125rem;
+}
+
+.nav-logo-rest{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.nav-p, .nav-li{
+    display: inline;
+}
+
+.nav-options{
+    text-align: right;
+}
+
+.nav-ul{
+    margin-block: 0;
+    padding-inline-start: 0;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.nav-li{
+    margin-right: 1rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.navbar-a{
+    text-decoration: none;
+    color: var(--letter);
+}
+
+.nav-p{
+    font-family: 'Dancing Script', cursive;
+    margin-block: 0;
+}
+
+.res-nombre{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* Main */
+.container{
+    margin-top: 3rem;
+}
