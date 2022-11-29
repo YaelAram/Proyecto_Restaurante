@@ -8,6 +8,10 @@
     height: 600px;
 }
 
+/*
+    Cambiamos el cursor para visualmente indicar que el cursor esta sobre el boton, se cambia su color de fondo y 
+    redondeamos sus puntas, adicionalmente cambiamos su posicion para que se encuentre dentro de la imagen
+*/
 .menu-btn{
     position: absolute;
     top: 75%;
@@ -24,6 +28,7 @@
     padding: 1rem;
 }
 
+/* Cmabiamos el color de fondo y de fuente cuando el cursor este sobre el boton */
 .menu-btn:hover{
     background-color: var(--secondary-color);
     color: black;
